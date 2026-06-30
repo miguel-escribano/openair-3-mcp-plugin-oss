@@ -1,0 +1,10 @@
+{
+  "name": "openair-3-mcp-client-plugin-oss",
+  "version": "0.1.0",
+  "description": "openair MCP client plugin — manuals + workflow recipes. Requires the openair-3-mcp-server-oss MCP server.",
+  "author": {
+    "name": "Miguel Escribano"
+  },
+  "repository": "https://github.com/miguel-escribano/openair-3-mcp-client-plugin-oss",
+  "license": "MIT"
+}

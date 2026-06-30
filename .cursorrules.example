@@ -1,0 +1,7 @@
+# OpenAir MCP Client — activate when working in this plugin repo.
+# Copy to .cursorrules (gitignored) or rely on rules/openair-context.mdc.
+
+When using openair-3-mcp-client-plugin-oss skills or the user asks for AQ plots / AURN import / CSV plots:
+- Read agents/openair-agent.md
+- Route to skills/ingest-local, skills/ingest-network, skills/prepare-plot, or skills/workflows/*
+- Use openair-3-mcp tools only; no manual ETL in reasoning

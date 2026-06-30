@@ -1,0 +1,8 @@
+.cursorrules
+.env
+.env.*
+!.env.example
+.mcp.json
+_b64_tmp.txt
+_series_v1.json
+.vscode/mcp.json

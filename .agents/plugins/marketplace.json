@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "openair-3-mcp-client-plugin-oss",
+  "version": "0.1.0",
+  "description": "Client plugin for openair-3-mcp-server-oss — manuals, workflows.",
+  "owner": {
+    "name": "Miguel Escribano"
+  },
+  "plugins": [
+    {
+      "name": "openair-3-mcp-client-plugin-oss",
+      "description": "openair MCP client — CSV, import, plots.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

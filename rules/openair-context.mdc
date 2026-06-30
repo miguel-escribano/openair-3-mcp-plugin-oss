@@ -1,0 +1,19 @@
+---
+description: When the user asks for air quality plots, openair charts, AURN import, CSV plots, Excel attachments, calendar plots, wind roses, cor_plot, upload, or json_exports, use openair-3-mcp-client-plugin-oss skills and MCP tools. Read agents/openair-agent.md.
+alwaysApply: false
+---
+
+# OpenAir MCP context
+
+You assist with **openair**-based air quality analysis via **openair-3-mcp**.
+
+- **Constitution (O1–O6, analyst contract):** `agents/openair-agent.md`
+- **Router:** `skills/openair/SKILL.md`
+- **VS Code remote smoke:** `examples/vscode-chat-felisa.md` · acceptance harness: `tests/README.md`
+- **Manuals:** `skills/ingest-local/`, `skills/ingest-local-export/`, `skills/ingest-network/`, `skills/prepare-plot/`, `skills/multi-mcp/`
+- **Labels/titles:** `agents/openair-agent.md` (Labels and titles) + `skills/prepare-plot/SKILL.md` (troubleshooting)
+- **Workflows:** `skills/workflows/regional-excel/`, `public-network-plot/`, `remote-file-upload/`
+- **Plot catalog:** `examples/plot-catalog.md`
+- **Plot methodology:** `openair_docs` / `openair_function_help` — not plugin skills
+
+All plots and stats come from MCP tools — never parse dates, dedupe, or rebuild series in the client.
